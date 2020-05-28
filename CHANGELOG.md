@@ -1,0 +1,5 @@
+# Changelog
+
+## Version 0.6.0
+
+- First public release

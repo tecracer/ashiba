@@ -1,0 +1,15 @@
+---
+name: ashiba-template
+format_version: 1
+version: 1.0.0
+summary: New Ashiba template
+description: |
+  Creates a template project for new Ashiba templates
+variables:
+  name: ''
+  version: 0.1.0
+  author: John Doe
+  email: john@example.com
+  summary: Summary of the template
+  description: A longer explanation of its functionality
+  url: http://example.com

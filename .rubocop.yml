@@ -1,0 +1,47 @@
+---
+require: rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 2.4
+  Exclude:
+    - 'pkg/**/*'
+    - 'Rakefile'
+    - 'tasks/**/*'
+    - 'templates/**/*'
+
+Layout/AlignHash:
+  Exclude:
+    - 'spec/lib/*_spec.rb'
+Layout/MultilineHashBraceLayout:
+  Exclude:
+    - 'spec/lib/*_spec.rb'
+
+Lint/ParenthesesAsGroupedExpression:
+  Exclude:
+    - 'spec/lib/*_spec.rb'
+
+Metrics/LineLength:
+  Max: 200
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/MutableConstant:
+  Enabled: false
+Style/StringLiterals:
+  Exclude:
+    - '*.gemspec'
+    - 'Gemfile'
+
+# Temporary until refactoring
+Metrics/AbcSize:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: false
+Metrics/ClassLength:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/GlobalVars:
+  Enabled: false

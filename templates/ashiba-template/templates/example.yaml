@@ -1,0 +1,15 @@
+---
+name: example
+format_version: 1
+version: 0.1.0
+summary: New Ashiba template
+description: |
+  Nothing right now
+variables:
+  name: ''
+  version: 1.0.0
+  author: John Doe
+  email: jdoe@tecracer.de
+  summary: New Template for X
+  description: Provides modular X functionality
+  url: https://tecracer.de

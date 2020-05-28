@@ -1,0 +1,6 @@
+require 'ashiba/logger'
+require 'ashiba/template'
+require 'ashiba/template_loader'
+require 'ashiba/configuration'
+require 'ashiba/cli'
+require 'ashiba/version'
