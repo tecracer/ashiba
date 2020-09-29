@@ -22,6 +22,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
+  spec.add_development_dependency "bump", "~> 0.9"
   spec.add_development_dependency 'mdl', '~> 0.4'
   spec.add_development_dependency 'rspec', '~> 3.7'
   spec.add_development_dependency 'rubocop-rspec', '~> 1.18'
