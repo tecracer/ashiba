@@ -13,3 +13,5 @@ variables:
   summary: Summary of the template
   description: A longer explanation of its functionality
   url: http://example.com
+finalize:
+  - git init .

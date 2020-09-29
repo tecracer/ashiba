@@ -41,6 +41,11 @@ All templates are directly configured as Gem file, so you can build them,
 install them and even publish them to your own private Gem repository or
 rubygems.org.
 
+### Final commands
+
+If you want commands to be executed after scaffolding your project, add them as
+a list under the `finalize` key of the YAML
+
 ## Configuration
 
 Ashiba YAML configuration files reside in ~/.ashibarc or in /etc/ashiba/ashibarc.

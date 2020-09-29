@@ -150,6 +150,14 @@ module Ashiba
         entries.each do |name|
           template("#{template_base}/#{name}", "#{path}/#{dest_filename(name)}")
         end
+
+        template_info = get_data_from_template(template)
+        finalize = Array(template_info['finalize'])
+        return unless finalize
+
+        Dir.chdir(path) do
+          finalize.each { |cmd| puts `#{cmd}` }
+        end
       end
 
       # rubocop:disable Style/MethodMissingSuper,Style/MissingRespondToMissing
