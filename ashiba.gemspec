@@ -31,6 +31,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop-rspec'
 
   spec.add_dependency 'hashie', '~> 3.5'
-  spec.add_dependency 'highline', '~> 1.7'
+  spec.add_dependency 'highline', '>= 1.7', '< 3.0'
   spec.add_dependency 'thor', '~> 0.20'
 end
