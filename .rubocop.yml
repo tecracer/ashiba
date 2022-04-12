@@ -2,14 +2,14 @@
 require: rubocop-rspec
 
 AllCops:
-  TargetRubyVersion: 2.4
+  TargetRubyVersion: 2.7
   Exclude:
     - 'pkg/**/*'
     - 'Rakefile'
     - 'tasks/**/*'
     - 'templates/**/*'
 
-Layout/AlignHash:
+Layout/HashAlignment:
   Exclude:
     - 'spec/lib/*_spec.rb'
 Layout/MultilineHashBraceLayout:

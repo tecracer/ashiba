@@ -22,10 +22,13 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
+  spec.required_ruby_version = '>= 2.7'
+  spec.metadata              = { 'rubygems_mfa_required' => 'true' }
+
   spec.add_development_dependency "bump", "~> 0.9"
   spec.add_development_dependency 'mdl', '~> 0.4'
-  spec.add_development_dependency 'rspec', '~> 3.7'
-  spec.add_development_dependency 'rubocop-rspec', '~> 1.18'
+  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'rubocop-rspec'
 
   spec.add_dependency 'hashie', '~> 3.5'
   spec.add_dependency 'highline', '~> 1.7'
