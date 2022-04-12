@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.required_ruby_version = '>= 2.7'
+  spec.metadata              = { 'rubygems_mfa_required' => 'true' }
 
   spec.add_development_dependency "bump", "~> 0.9"
   spec.add_development_dependency 'mdl', '~> 0.4'
