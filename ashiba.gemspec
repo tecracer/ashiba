@@ -32,5 +32,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'hashie', '~> 3.5'
   spec.add_dependency 'highline', '~> 1.7'
-  spec.add_dependency 'thor', '~> 0.20'
+  spec.add_dependency 'thor', '>= 0.20', '< 2.0'
 end
